@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #FFF; 
+}
+
+#tudo{
+	flex: 1;
+	width: 1100px;
+	margin:0 auto;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*bars*/
+
+header, footer {
+   display: block;
+   min-height: 180px;
+}
+
+footer {
+	background-color: #01629c;
+}
+
+header{
+	width:100%;
+	height:298px;
+	background:url(../Layout/banner.jpg) center;
+	margin: 0 auto;
+	box-shadow: 0 2px 18px #9E9E9E;
+}
+
+/*sidebar*/
+
+#sidebar{
+	width:308px;
+	height:402px;
+	float:left;
+	margin-left: 45px;
+	margin-top: 20px;
+	border-right: 1px dashed #e0e0e0;
+}
+
+#clique{
+	width:278px;
+	height:91px;
+	background:url(../Layout/clique.png);
+	margin:23px auto;
+}#clique:hover{
+	background:url(../Layout/clique-hover.png);
+}
+
+/*pop up*/
+
+#pop {
+	display:block;
+	position:absolute;
+	top:50%;
+	left: 50%;
+  	margin-left: -375px;
+	margin-top:-300px;
+	padding:3px 10px 10px 10px;
+	width:750px;
+	height:554px;
+	border:1px solid #d0d0d0;
+	background-color: #fff;
+    box-shadow: 0 0 90px #282828;
+    z-index: 999999;
+}
+
+/*--------------------------------------Acesso---------------------------*/
+
+.acess{
+	width:257px;
+	margin:7px auto;
+}.acess a{
+	color: white;
+	font-size: 11px;
+	text-decoration: none;
+	margin: 102px 79px;
+	position: absolute;
+}.acess a:hover{
+	text-decoration: underline;
+}
+#acess-aluno{
+	height:122px;
+	background:url(../Layout/acesso-aluno.png);
+}
+#acess-CFC{
+	height:111px;
+	background:url(../Layout/acesso-cfc.png);
+}
+
+/*btn-ok*/
+.btn-ok{
+	background: url(../Layout/btn-ok.png);
+	width: 35px;
+	height: 14px;
+	border: none;
+	background-repeat: no-repeat;
+}.btn-ok:hover{
+	background: url(../Layout/btn-ok.png);
+	cursor:pointer;
+}
+/*login*/
+.login{
+	position: absolute;
+	margin-top: 40px;
+	padding-left: 30px;
+}
+.login-input{
+	width: 150px;
+	height: 16px;
+	border: none;
+}
+/*senha*/
+.senha{
+	position: absolute;
+	margin-top: 75px;
+	padding-left: 30px;
+}
+.senha-input{
+	width: 110px;
+	border: none;
+	height: 16px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*menu*/
+
+#menu{
+	width: 645px;
+	height: 50px;
+	margin: 0 auto;
+	font-family: "Open Sans", sans-serif;
+}
+#menu ul{
+	list-style:none;
+	margin-top: 10px;
+}
+#menu ul li{
+	display:inline;
+	color:#01629C;
+	padding: 0 1px;
+}
+#menu a{
+	text-decoration:none;
+	font-size: 16px;
+	color:#01629C;
+	border:none;
+	background:white;
+}#menu a:hover{
+	font-weight: 700;
+}
+
+/*content*/
+
+#content{
+	width: 642px;
+	margin: 0 auto;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+#content p{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:justify;
+    margin: 0px 5px 25px 0px;
+}
+#content h1{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 700;
+}
+
+/*container*/
+
+#container{
+	width:745px;
+	float:right;
+	margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+
+#container2 {
+	margin-right: auto;
+  	margin-left: auto;
+	width: 1000px;
+	padding-top: 20px;
+}
+
+#container2 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+#container3 {
+	width: 50%;
+	float: left;
+}
+
+#container4 {
+	width: 50%;
+	float: right;
+}
+
+.colum
+
+/*hover*/
+
+#1:hover{
+	
+}
+#2:hover{
+	
+}
+#3:hover{
+
+}
+#4:hover{
+	
+}
+#cfc
+{
+	width: 644px;
+	height: 334px;
+	display: block;
+	overflow-y: scroll;
+}
+#sidebar form
+{
+	margin-top: 58px;
+}
+
+.linkhome a {
+	text-decoration: none;
+	color: #000;
+}
+
+.linkhome a:hover {
+	color: #01629c;
+}
+

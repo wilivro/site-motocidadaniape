@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cursos Especializados para Mototaxistas e Motofretistas - Pró-Cidadania</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<script>
+/*
+	document.getElementById("clique").onclick = function(){
+		window.open('http://geralearning.wilivro.com.br/matricula/entCard.asp','_blank');
+		console.log("clique_01");
+	}
+*/
+		
+	function abrir() {
+		window.open('http://geralearning.wilivro.com.br/matricula/entCard.asp','_blank')
+	}
+</script>
+
+<body class="site">
+<header></header>	<div id="tudo">
+        <div id="sidebar">
+        	<!--div id="clique" onclick="javascript:abrir();"></div-->
+            <form name="frmLogin" method="post" action="http://geralearning.wilivro.com.br/Quali/entrada2.asp" target="_top">
+            <div id="acess-aluno" class="acess">
+            	<div class="login">
+                    <label style="font-family:sans-serif;" class="labelClass">Login:</label>
+                	<input type="text" value="" name="login" id="login" maxlength="15" tabindex="1" class="login-input">
+                </div>
+                <div class="senha">
+                    <label style="font-family:sans-serif;">Senha:</label>
+                	<input type="password" value="" name="pass" id="pass" maxlength="15" tabindex="2" class="senha-input">
+                    <input type="submit" value="" class="btn-ok" tabindex="3">
+                </div>
+                <a href="http://geralearning.geranegocio.com.br/matricula/esqueciMinhaSenha.asp">
+                    <p>Esqueci minha senha</p>
+                </a>
+            </div>
+            </form>
+            
+            <div id="acess-CFC" class="acess">
+                <form target="_top" action="http://geralearning.wilivro.com.br/_admin/login.asp" method="post" name="frmLogin">
+                    <div class="login">
+                        <label style="font-family:sans-serif;" class="labelClass">Login:</label>
+                        <input type="text" name="login" class="login-input" tabindex="4">
+                    </div>
+                    <div class="senha">
+                        <label style="font-family:sans-serif;">Senha:</label>
+                        <input type="password" name="pass" class="senha-input" tabindex="5">
+                        <input type="submit" value="" class="btn-ok" tabindex="6">
+                    </div>
+    
+                </form>
+            </div>
+        </form>
+        </div>        <div id="container">
+        	
+        <div id="menu">
+	<ul>
+		<li><a href="index.php.html">HOME</a></li>
+    	<li><img src="Layout/separator.png" /></li>
+    	<li><a href="inscrever.php.html">INSCRI&Ccedil;&Atilde;O</a></li>
+    	<li><img src="Layout/separator.png" /></li>
+    	<li><a href="CFC.php.html">CFC's CADASTRADOS POR CIDADE</a></li>
+        <li><img src="Layout/separator.png" /></li>
+        <li><a href="noticias.php.html">NOT&Iacute;CIAS</a></li>
+        <li><img src="Layout/separator.png" /></li>
+        <li><a href="downloads.php.html">DOWNLOADS</a></li>
+	</ul>
+    <div style="background:#E5E5E4; width:632px; height:1.5px;margin-top: 20px;"></div>
+</div>        	<div id="content">
+        <p>
+            Os CFCs que desejarem executar os cursos para Motofretistas e Mototaxistas deverão solicitar sua adesão através dos telefone (81) 3423-9676 ou pelo email: <a href="mailto:moto@procidadania.org.br">moto@procidadania.org.br</a>.
+        </p>        
+                
+<form action="CFC.php.html" method="GET">
+    
+
+
+    <select name="id_local" id="id_local" onchange='this.form.submit()'>
+        <option value="0">Todas as Cidades</option>
+        <option value='1565'>RECIFE</option><option value='1566'>OLINDA</option><option value='1567'>JABOATÃO DOS GUARARAPES</option><option value='1568'>PETROLINA</option><option value='1569'>NAZARÉ DA MATA</option><option value='1570'>CONDADO</option><option value='1571'>CARUARU</option><option value='1572'>CABO DE SANTO AUGOSTINHO</option><option value='1573'>PAULISTA</option><option value='1574'>IPOJUCA</option><option value='1575'>SÃO LOURENÇO DA MATA</option><option value='1576'>SÃO CAETANO</option><option value='1577'>VITÓRIA DE SANTO ANTÃO</option><option value='1578'>CACHOERINHA</option><option value='1579'>GARANHUNS</option><option value='1580'>ARARIPINA</option><option value='1581'>ARCOVERDE</option><option value='1582'>AFRÂNIO</option><option value='1583'>LAGOA GRANDE</option><option value='1584'>ITAPISSUMA</option><option value='1585'>CAMARAGIBE</option><option value='1586'>PALMARES</option><option value='1587'>CABROBÓ</option><option value='1588'>CARPINA</option><option value='1589'>OROBÓ</option><option value='1590'>BONITO</option><option value='1591'>SALGUEIRO</option><option value='1592'>SERRA TALHADA</option><option value='1593'>ALIANÇA</option><option value='1594'>GOIANA</option><option value='1595'>ÁGUAS  BELAS</option><option value='1596'>PESQUEIRA</option><option value='1597'>ABREU E LIMA</option><option value='1598'>IGARASSU</option><option value='1599'>BODOCO</option><option value='1602'>RIBEIRÃO</option><option value='1603'>MORENO</option><option value='1604'>OURICURI</option><option value='1605'>PONTES DOS CARVALHOS</option><option value='1606'>BELO JARDIM</option><option value='1607'>PAUDALHO</option><option value='1608'>TIMBAÚBA</option><option value='1609'>FERREIROS</option><option value='1611'>SÃO JOSÉ DO EGITO</option><option value='1612'>TUPARETAMA</option><option value='1613'>GRAVATÁ</option><option value='1614'>LIMOEIRO</option><option value='1615'>ÁGUA PRETA</option><option value='1616'>SURUBIM</option><option value='1617'>CUSTODIA</option><option value='1619'>LAJEDO</option><option value='1620'>PETROLANDIA</option><option value='1621'>AFOGADOS DA INGAZEIRA</option><option value='1622'>BEZERROS</option><option value='1624'>BREJO</option><option value='1626'>BUIQUE</option><option value='1627'>ESCADA</option><option value='1628'>BARREIROS</option><option value='1647'>TESTE</option><option value='1742'>BREJO DA MADRE DE DEUS</option><option value='1919'>LAGOA DO ITAENGA</option>    </select>
+
+</form>
+<div id="cfc">
+    <table>
+        <tr>
+            <td><b>Nome</b></td>
+            <td><b>Telefone</b></td>
+            <td><b>Endereço</b></td>
+
+        </tr>
+<tr><td>3 IRMÃOS CFC</td>
+<td>(87) 3855 1710</td>
+<td>AV. JOSE EMILIO DE MELO, Nº 39 CENTRO</td>
+</tr><tr><td>A E B RECITRAN CFC</td>
+<td>(87) 3822-6111</td>
+<td>AVENIDA JOSE BONIFACIO, NÂº 859 SÃƒO CRISTOVÃƒO</td>
+</tr><tr><td>ÁGUA PRETENSE CFC</td>
+<td>(81) 36811045</td>
+<td>RUA ANTONIO LEÕNCIO, Nº 3760 CENTRO</td>
+</tr><tr><td>ALBUQUERQUE</td>
+<td>(81) 3343 3172</td>
+<td>AV.BARÃO DE SOUZA LEÃO,Nº 1354 BOA VIAGEM</td>
+</tr><tr><td>ALFA AFOGADOS DA INGAZEIRA - CFC</td>
+<td>(87) 3838 2479</td>
+<td>RUA QUINZE DE NOVEMBRO, 209 CENTRO</td>
+</tr><tr><td>ALFA ARCOVERDE -CFC</td>
+<td>(87) 3821 0826</td>
+<td>AV GUMERCINDO CAVALCANTI, 401 SAO CRISTOVAO</td>
+</tr><tr><td>ALFA CUSTODIA - CFC</td>
+<td>87 34841399 </td>
+<td>AV INOCENCIO LIMA CENTRO</td>
+</tr><tr><td>ALFA GARANHUNS</td>
+<td>87 37616719</td>
+<td>RUA PRESIDENTE EPITACIO PESSOA, 67 HELIOPOLIS</td>
+</tr><tr><td>ALFA PETROLANDIA - CFC</td>
+<td>87 37512139</td>
+<td>AV DEP MILVERME CRUZ LIMA, 160 ORLA</td>
+</tr><tr><td>ALFA SERRA TALHADA - CFC</td>
+<td>87 38311277</td>
+<td>AV CUSTODIO CONRADO LORENA E SA, 700 AABB</td>
+</tr><tr><td>AMARAL LOPES - ARCOVERDE CFC</td>
+<td>(87) 3761 6719</td>
+<td>AV JOSE BONIFACIO,Nº 810 SAO CRISTOVAO</td>
+</tr><tr><td>ARARIPE</td>
+<td>(87) 38741099</td>
+<td>EUCLIDES BEZERRA LINS, Nº 80 CENTRO</td>
+</tr><tr><td>ARARIPINA CFC</td>
+<td>(87) 3873 3190</td>
+<td>ROD 316, KM 24, Nº 418 CENTRO</td>
+</tr><tr><td>AUTO-ESCOLA BITURY - FILIAL</td>
+<td>87 3773 3858</td>
+<td>RUA GILSON PEIXOTO, 01  COHAB</td>
+</tr><tr><td>AUTO-ESCOLA BITURY MATRIZ</td>
+<td>81 3726 3157</td>
+<td>RUA CLEYO CAMPELO, 182 CENTRO</td>
+</tr><tr><td>AVENIDA CFC</td>
+<td>(81) 3634 1234</td>
+<td>AV. SÃO SEBASTIÃO, Nº 467 CENTRO</td>
+</tr><tr><td>BANDEIRANTES CFC</td>
+<td>(81) 3476 4908</td>
+<td>AV.  GENERAL BARRETO DE MENEZES, Nº  625 PIEDADE</td>
+</tr><tr><td>BEIRA MAR CFC</td>
+<td>(81) 34363079</td>
+<td>AV. CLAUDIO JOSE GUEIROS LEITE,N º 34 91 JAMGA</td>
+</tr><tr><td>BEIRA MAR OLINDA CFC</td>
+<td>(81) 3495 4384</td>
+<td>AV. CARLOS DE LIMA CAVALCANTI, Nº 2773 CASA CAIADA</td>
+</tr><tr><td>BELÉM</td>
+<td>81 3241 8161</td>
+<td>ESTRADADE BELÉM, 1501 CAMPO GRANDE</td>
+</tr><tr><td>BREJO DA MADRE DE DEUS</td>
+<td>81 37471667</td>
+<td>RUA ANANIAS FELIX RAMOS, 37 CENTRO</td>
+</tr><tr><td>CANDEIAS CFC</td>
+<td>(81) 3469 1689</td>
+<td>AV. PRESIDENTE KENNEDY, Nº 5415 CANDEIAS</td>
+</tr><tr><td>CARPINENSE</td>
+<td>(81) 3622 0732</td>
+<td>AV.ESTÁCIO COIMBRA, Nº 472 CENTRO</td>
+</tr><tr><td>CASA AMARELA CFC</td>
+<td>(81) 3271 3344</td>
+<td>RUA  DA HARMONIA, Nº 861 CASA AMARELA</td>
+</tr><tr><td>CEPA</td>
+<td>(81) 34621511</td>
+<td> ESTRADA DA BATALHA, Nº 2090 A  JARDIM JORDÃO</td>
+</tr><tr><td>CEPA ITAPISSUMA CFC</td>
+<td>(81) 3548 1567</td>
+<td>AV. FREI SERAFIM, NÂº 307 CENTRO</td>
+</tr><tr><td>CFC REI DOS REIS</td>
+<td>81 3050.1369</td>
+<td>RUA DR. BELMINO CORREIA, 41 - LOJA 2 E 3 TIMBI</td>
+</tr><tr><td>CFC ZANATTA TRANSITO LTDA - ME</td>
+<td>81 3453-8218</td>
+<td>RUA ADEL PEDROSO, 129 CENTRO</td>
+</tr><tr><td>CRISTO REDENTOR CFC</td>
+<td>81 3628 0643</td>
+<td> TRAVESSA DA RUA DA ALEGRIA NÂº 4 CENTRO</td>
+</tr><tr><td>DAMA</td>
+<td>(81) 3492 8457</td>
+<td>AV.BRASIL , NÂº 145 RIO DOCE - 5Âº ETAPA</td>
+</tr><tr><td>DIREÇÃO CERTA CFC</td>
+<td>(81) 3538 0052</td>
+<td>RUA CENTO E CINQUENTA E SEIS, NÂº 215 CAETES 1</td>
+</tr><tr><td>EGIPCIENSE CFC</td>
+<td>(87) 3844-1456 </td>
+<td>RUA PRIMEIRO DE MARÃ‡O, NÂº 100  CENTRO </td>
+</tr><tr><td>ELOIN CFC</td>
+<td>(81) 3431 6745</td>
+<td>AV. BRASIL, NÂº 416 RIO DOCE</td>
+</tr><tr><td>EMANUEL LTDA CFC</td>
+<td>87.37622183</td>
+<td>AV. SANTA ROSA, NÂº 447 HELIOPOLIS</td>
+</tr><tr><td>ESPECIAL LTDA CFC</td>
+<td>(81) 3251 2442</td>
+<td>AV. GENERAL MANOEL RABELO,NÂº 5300 SUCUPIRA</td>
+</tr><tr><td>ESPINHEIRO CFC</td>
+<td>(81) 3241 9114</td>
+<td>AV. JOÃ£O DE BARROS, NÂº 1243 ESPINHEIRO</td>
+</tr><tr><td>FERREIROS LTDA CFC</td>
+<td>(81) 3657 1201</td>
+<td> RUA IMACULADA CONCEIÃ§Ã£O, NÂº 20 CENTRO</td>
+</tr><tr><td>GL AUTO ESCOLA</td>
+<td>(81) 3671 2995</td>
+<td>RUA OSVALDO CRUZ, Nº 193 CENTRO</td>
+</tr><tr><td>GOIANA CFC</td>
+<td>(81) 3626 0938</td>
+<td>PRAÃ§A DA BIBLIA, NÂº 1 CENTRO</td>
+</tr><tr><td>IGARASSU CFC</td>
+<td>(81) 3543 1944</td>
+<td>RUA AFRICA DO SUL, NÂº 01 CENTRO</td>
+</tr><tr><td>IGARASSU -FILIAL GOIANA CFC</td>
+<td>(81) 3626 4706</td>
+<td>RUA JOSE MARIA DE ALBUQUERQUE MELO, NÂº 19 CASTELO BRANCO</td>
+</tr><tr><td>INSTITUTO PRÓ-CIDADANIA</td>
+<td>(87) 3871 5417</td>
+<td>RUA FRANCISCO NOBERTO, NÂº 263 NOSSA SENHORA DAS GRAÃ§AS</td>
+</tr><tr><td>INTERATIVA CFC</td>
+<td>(81) 3637 2872</td>
+<td>RUA NIVAN BORBA, NÂº 12 CENTRO</td>
+</tr><tr><td>JOSE DE SA MARANHÃO</td>
+<td>(87) 3831 1280</td>
+<td>RUA MANOEL PEREIRA LINS, Nº 754 CENTRO</td>
+</tr><tr><td>KILOMETRO</td>
+<td>(81) 3545 0844</td>
+<td>AV. BARAO DE VERA CRUZ, NÏ¿½ 765 CRUZ DE REBOUÏ¿½AS</td>
+</tr><tr><td>LIDER LTDA ME CFC</td>
+<td>(87)3835 1985</td>
+<td>RUA ADALBERTO DE FREITAS, NÂº 31 CENTRO</td>
+</tr><tr><td>LIMOEIRO CFC</td>
+<td>(81) 3628 0395</td>
+<td> AV JERONIMO HERÃCLIO, NÂº 689 PONTO CERTO</td>
+</tr><tr><td>LITO AUTO ESCOLA</td>
+<td>(81) 3533 2303</td>
+<td>RUA CORONEL ESTEVÃO CAMÂRA, Nº 142 CENTRO</td>
+</tr><tr><td>LITORAL CFC</td>
+<td>(81) 3675 1533</td>
+<td>RUA MARECHAL RONDOM,Nº 32 CENTRO</td>
+</tr><tr><td>MATA SUL CFC</td>
+<td>(81) 3671 1593</td>
+<td>RUA JOÃO PESSOA, Nº 511 CENTRO</td>
+</tr><tr><td>MODULO</td>
+<td>(81) 3476 3308 </td>
+<td>RUA CONSELHEIRO JOSE FELIPE, Nº 78 SANTO ALEIXO</td>
+</tr><tr><td>MONTEIRO CFC</td>
+<td>(81) 3721 3012</td>
+<td>RUA SILVINO MACEDO,Nº 50 MAURICIO DE NASSAU</td>
+</tr><tr><td>MUNIZ CFC</td>
+<td>(81) 3519 1718</td>
+<td>AV. DR. BELMIRO CORREA,  NÂº 1115 CAPIBARIBE</td>
+</tr><tr><td>NOSSA SENHORA DA CONCEIÇÃO - FILIAL CFC</td>
+<td>(81) 3252 0998</td>
+<td>RUA AGAMENOM MAGALHÃƒES,NÂº 685 A CAVALEIRO</td>
+</tr><tr><td>NOSSA SENHORA DA CONCEIÇÃO CFC</td>
+<td>(81) 3481 1182</td>
+<td>AV. GENERAL MANOEL RABELO,NÂº 841  ENGENHO VELHO</td>
+</tr><tr><td>NOSSA SENHORA DE SANATANA CFC</td>
+<td>(81) 3728 1045</td>
+<td>RUA CORONEL SALVIANO MACHADO. NÂº 72 CENTRO</td>
+</tr><tr><td>NOVA CONDADO CFC</td>
+<td>(81) 3642 1522</td>
+<td>AV. OLEGARIO FONSECA , NÂº 120 CENTRO</td>
+</tr><tr><td>NOVA DIREÇÃO CFC</td>
+<td>(81)3241 5623</td>
+<td>RUA TEREZITA BANDEIRA, NÂº 70 JARDIM BRASIL 2</td>
+</tr><tr><td>NOVA GERAÇÃO FILIAL CFC</td>
+<td>(81) 3633 3847</td>
+<td>TRAVESA SIQUEIRA CAMPOS, NÂº 146 CERTANZINHO</td>
+</tr><tr><td>NOVA GERAÇÃO MATRIZ CFC</td>
+<td>(81) 3437 7704</td>
+<td>AV. PREFEITO ALFREDO LOPES FERREIRA, NÂº 13 JARDIM PAULISTA BAIXO</td>
+</tr><tr><td>NOVA LIDERANÇA</td>
+<td>(81) 3523 1566</td>
+<td> RUA DR ALUÍZIO DE MELO XAVIER, Nº 83  MATRIZ</td>
+</tr><tr><td>PADRAO CFC</td>
+<td>(87) 3875 2008</td>
+<td>AV NILO COELHO, Nº 02 CENTRO</td>
+</tr><tr><td>PAUDALHO</td>
+<td>(81) 3636 1778</td>
+<td>AV.SENADOR PINHEIRO RAMOS, NÃ‚Âº 387 CENTRO</td>
+</tr><tr><td>PILOTO AFLITOS CFC</td>
+<td>(81) 3426 1817</td>
+<td>AV. CONSELHEIRO ROSA E SILVA, NÂº 708 AFLITOS</td>
+</tr><tr><td>PILOTO BEBERIBE CFC</td>
+<td>(81) 3443 5297</td>
+<td>AV.BEBERIBE, NÂº 2470 FUNDÃ£O</td>
+</tr><tr><td>PILOTO BOA VIAGEM CFC</td>
+<td>(81) 3442 6727</td>
+<td>RUA CAPITÃ£O ZUZINHA, NÂº 59 BOA VIAGEM</td>
+</tr><tr><td>PILOTO CAXANGA CFC</td>
+<td>(81)3272 1099</td>
+<td>AV. CAXANGA, NÂº 3095 IPUTINGA</td>
+</tr><tr><td>PILOTO IBURA CFC</td>
+<td>(81) 3338 6226</td>
+<td>AV.DOIS RIO,NÂº 1515 IBURA</td>
+</tr><tr><td>PILOTO OLINDA CFC</td>
+<td>(81) 3492 8818</td>
+<td>AV. GOVERNADOR CARLOS DE LIMA CAVALCANTI CASA CAIADA</td>
+</tr><tr><td>PLANALTO CFC</td>
+<td>(81) 3621 2240</td>
+<td>RUA PASTOR FRANCISCO XAVIER DE BRITO, Nº 150  SÃ£O JOSÃ© </td>
+</tr><tr><td>PONTUAL CFC</td>
+<td>(81) 3524 8827</td>
+<td>AV. NOSSA SENHORA DO BOM CONSELHO, NÂº 149 B PONTES DOS CARVALHOS</td>
+</tr><tr><td>POPULAR</td>
+<td>81 3455 5928</td>
+<td>RUA LAZARO FONTES, 114 JIQUIA</td>
+</tr><tr><td>RAINHA DA PAZ CFC</td>
+<td>(81) 3534 2677</td>
+<td>RUA DA MATRIZ, Nº 79 CENTRO</td>
+</tr><tr><td>REAL SANTANA CFC</td>
+<td>(81) 3631 1778</td>
+<td>RUA MANOEL DE SOUZA SARDANHA, NÂº 240 CENTRO</td>
+</tr><tr><td>RECIFENSE CFC</td>
+<td>(81) 3422 1338</td>
+<td>RUA ARQUITETO LUIZ NUNES, Nº 183 IMBIRIBEIRA</td>
+</tr><tr><td>SAEP UNIÃO</td>
+<td>(81) 3241 7033</td>
+<td>PRAÇA DA BANDEIRA, Nº 92 MADALENA</td>
+</tr><tr><td>SAEPE CENFOCO</td>
+<td>(81) 3361 4479</td>
+<td>AV. COPACABANA, Nº.1221 PIEDADE</td>
+</tr><tr><td>SAEPE CFCN NORDESTE (CEDP)</td>
+<td>(81) 32712332</td>
+<td>RUA MANOEL MEDEIROS, Nº 1398 DOIS IRMÃOS </td>
+</tr><tr><td>SAEPE CLUBE DO BRASIL</td>
+<td>(81) 3326 6554</td>
+<td>AV. RIBEIRO DE BRITO, Nº 743 BOA VIAGEM </td>
+</tr><tr><td>SANT ANA CFC</td>
+<td>(81) 3533-1351</td>
+<td>JOÃƒO PESSOA NÂª 56 CENTRO</td>
+</tr><tr><td>SANTA MONICA</td>
+<td>(81) 3726 7229</td>
+<td>RUA ARRUDA MARINHO, Nº 52 FLORESTA</td>
+</tr><tr><td>SÃO DOMINGOS CFC</td>
+<td>(81) 3731 7612</td>
+<td>RUA LUIZ CECILIO DE SANTANA, Nº 149 SÃO DOMINGOS</td>
+</tr><tr><td>SÃO JORGE CFC</td>
+<td>(81) 3048 4400</td>
+<td>AV RECIFE, NÂº 604 AREIAS </td>
+</tr><tr><td>SÃO LOURENÇO DA MATA CFC</td>
+<td>(81) 3519 0393</td>
+<td>RUA DR. FRANCISCO CORREIA, NÂº 1063 CENTRO</td>
+</tr><tr><td>SIGA BEM CARPINA</td>
+<td>(81) 3621 4482</td>
+<td>AV. FRANCISCO VIANA, Nº 856 A SANTO ANTONIO</td>
+</tr><tr><td>TESTE</td>
+<td>000000000</td>
+<td>TESTE TESTE</td>
+</tr><tr><td>TROPICAL BOA VIAGEM</td>
+<td>(81) 3038 5052</td>
+<td>R.CAPITÃO ZUZINHA, Nº 112 BOA VIAGEM</td>
+</tr><tr><td>TROPICAL CENTRO</td>
+<td>(81) 3482 5195</td>
+<td>AV. BARÃO DE LUCENA, Nº 915 A CENTRO</td>
+</tr><tr><td>TROPICAL SUL</td>
+<td>(81) 3361 2488</td>
+<td>RUA AIRTON SENNA SILVA, Nº 366 PIEDADE</td>
+</tr><tr><td>TUPÃ CFC</td>
+<td>(87) 3828-1395</td>
+<td>AV. SIQUEIRA CAMPOS, S/N CENTRO</td>
+</tr><tr><td>VELOSO LTDA CFC</td>
+<td>(81)3661-4868</td>
+<td>RUA CORONEL AUSTRICLINIO, Nº 877 CENTRO</td>
+</tr>
+
+    </table>
+</div>
+
+            </div>
+        </div>
+        
+    </div>
+<footer>
+    <div id="container2">
+        <div id="container3">
+        <h1>CONTATO</h1>
+        <p style="color: #fff"><i class="fa fa-phone fa-lg"></i> (81) 3423-9676</p>
+        <p style="color: #fff"><i class="fa fa-at fa-lg"></i> moto@procidadania.org.br</p>
+        </div>
+        <div id="container4">
+            <h1>FORMAS DE PAGAMENTO</h1>
+            <img src="Layout/pagseguro-cartoes.png"/>
+        </div>
+    </div>
+</footer></body>
+</html>
